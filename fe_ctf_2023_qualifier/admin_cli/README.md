@@ -69,7 +69,7 @@ public class Main {
 
 At a second glance it looks more like a hash collision challenge. The class file takes a URL as input,
 replaces ``API_KEY`` with the flag, and then checks if the hash code of the URL is equal to ``-615519892`` and if the
-host is ``backend.fe-ctf.local``. If both conditions are true, it will send a GET request to the URL.
+host is ``backend.fe-ctf.local``. If both conditions are true, it will log the URL.
 
 So the goal is to create a URL that has the same hash code as ``-615519892`` and has ``backend.fe-ctf.local`` as host.
 The URL also needs to contain the flag, so we can see it in the logging message.

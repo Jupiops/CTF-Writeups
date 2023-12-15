@@ -5,4 +5,6 @@
 
 ## Table of Contents
 
+* ### [Admin CLI](admin_cli/README.md)
+
 * ### [Inception](inception/README.md)
