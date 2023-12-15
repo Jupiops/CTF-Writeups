@@ -10,13 +10,24 @@
 >
 > Labyrinths don't stall the pipeline.
 
+---
+
 ## Challenge
 
 Provided with the challenge is a giant image of a maze:
+
+<details>
+  <summary>Full maze image</summary>
+
 ![maze](maze_1.png)
 
-If we look closely, we can see that the path of the maze is actually made up of a bunch of colored squares. In the top
-left and bottom right corners, we can find the entry and exit points of the maze.
+</details>
+
+If we look closely, we can see that the path of the maze is actually made up of a bunch of colored squares.
+
+![maze](screenshot-maze.png)
+
+In the top left and bottom right corners, we can find the entry and exit points of the maze.
 
 ![first pixel](screenshot-1.png)
 
@@ -132,3 +143,7 @@ The script then extracts the pixels on the path and saves them to a new image, t
 data that is not a PNG file anymore. The last file then contains the flag.
 
 #### [Solver Script](inception.py)
+
+## Useful links
+
+* https://willgreen.tech/writeups/Tenable-CTF-2021-Writeups/#challenge-look-at-all-the-pixels-where-do-they-all-come-from
